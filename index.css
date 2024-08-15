@@ -1,0 +1,37 @@
+}
+
+input[type='checkbox']:checked {
+  accent-color: #808080;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #1e212d;
+}
+
+input[type='text'] {
+  width: 45%;
+  padding-block: 11px;
+  padding-inline: 22px 10px;
+  border-width: 0px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 11px 20px;
+  cursor: pointer;
+  background-color: #eabf9f;
+  border-width: 0px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+button:active {
+  background-color: #b68973;
+}
